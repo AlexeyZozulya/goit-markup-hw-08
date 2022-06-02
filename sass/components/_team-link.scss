@@ -1,0 +1,30 @@
+.team__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+
+	color: #afb1b8;
+
+	transition-property: background-color, color;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover {
+		color: $primary-white-color;
+		background-color: $accent-color;
+	}
+}
+
+.team__icon-insta,
+.team__icon-twitter,
+.team__icon-facebook,
+.team__icon-linkedin {
+	width: 20px;
+	height: 20px;
+	fill: currentColor;
+}

@@ -1,0 +1,43 @@
+.portfolio-nav__example-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+}
+
+.example-list__item {
+	margin: 15px;
+	transition-property: box-shadow;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover {
+		box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+			1px 4px 6px rgba(0, 0, 0, 0.16);
+	}
+}
+
+
+
+.example-list__images {
+	display: block;
+}
+
+.example-list__card {
+	padding: 20px 24px;
+	border: 1px solid #ececec;
+}
+
+.example-list__card-title {
+	display: block;
+	margin: 0 0 4px 0;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+}
+
+.example-list__card-text {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.88;
+	color: $title-text-color;
+}

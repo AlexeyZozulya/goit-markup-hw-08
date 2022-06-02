@@ -1,0 +1,33 @@
+@import './utils/variables';
+@import './utils/common-styles';
+@import './components/container';
+
+// header
+@import './components/header';
+
+// hero
+@import './components/hero';
+@import './components/main-button';
+
+// main content
+@import './components/promo-section';
+@import './components/direction-activity-section';
+@import './components/team-section';
+@import './components/team-link';
+@import './components/client-section';
+
+// footer
+@import './components/footer';
+@import './components/footer-contact';
+@import './components/footer-link';
+@import './components/footer-form';
+
+// portfolio page
+@import './components/portfolio-nav';
+@import './components/portfolio-cards';
+@import './components/portfolio-overflow';
+
+// modal & backdrop
+@import './components/backdrop';
+@import './components/modal-section';
+@import './components/modal-form-section';
